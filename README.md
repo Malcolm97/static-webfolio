@@ -1,6 +1,6 @@
 # static-webfolio
-# This wweb app demonstrates my ability to deploy
-# static web apps on AWS and Azure cloud services
+# This web app demonstrates my ability to deploy
+# static web apps onmcloud services
 # 
 # My completed objectives:
 # Successfull deployment on cloud - AWS and Azure
