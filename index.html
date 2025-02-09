@@ -419,11 +419,24 @@
                                                     <span aria-hidden="true">&times;</span>
                                                     </button>
                                             </div>
-                                            <div class="modal-body text-center">
-                                                <p class="mb-4">I'm available for remote opportunities!</p>
-                                                <a href="mailto:sionimalcolm@gmail.com?subject=Job Opportunity&body=Hi Malcolm,%0D%0A%0D%0AI'd like to discuss a job opportunity with you.%0D%0A%0D%0ADetails:%0D%0A" class="btn btn-custom btn-lg">
-                                                    <i class="mdi mdi-email"></i> Contact Me
-                                                </a>
+                                            <div class="modal-body">
+                                                <form class="hire-form" action="mailto:sionimalcolm@gmail.com" method="post" enctype="text/plain">
+                                                    <div class="form-group">
+                                                        <input name="name" id="name" type="text" class="form-control" placeholder="Full Name" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input name="email" id="email" type="email" class="form-control" placeholder="Email" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input name="country" id="country" type="text" class="form-control" placeholder="Country Location" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input name="mnumber" id="mnumber" type="text" class="form-control" placeholder="Mobile Number" required>
+                                                    </div>
+                                                    <div>
+                                                        <button type="submit" name="submit" class="btn btn-custom w-100">Contact</button>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
