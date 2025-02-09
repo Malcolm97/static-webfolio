@@ -78,6 +78,7 @@ button:focus {
     position: relative;
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: #222222;
 }
 
 .back_top {
@@ -243,7 +244,7 @@ button:focus {
 }
 
 .custom-nav.stickyadd {
-    background-color: #fff;
+    background-color: #FAEDB7;
     padding: 15px 0;
     box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
 }
@@ -341,7 +342,7 @@ button:focus {
 }
 
 .home-bg {
-    background-image: url(../img/home-bg1.jpg);
+    background-color: #1c1c1c; /* Matte black */
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -488,9 +489,9 @@ button:focus {
 .skill-custom .progress-bar {
     background: #bd5b77;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #a9143f, #bd5b77);
+    background: -webkit-linear-gradient(to right, #bd5b77, #7B2A48);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #a9143f, #bd5b77);
+    background: linear-gradient(to right, #bd5b77, #7B2A48);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
