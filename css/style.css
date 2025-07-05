@@ -78,7 +78,7 @@ button:focus {
 .section {
     position: relative;
     padding-top: 0;
-    padding-bottom: 80px;
+    padding-bottom: 0;
     background-color: #101010;
 }
 
@@ -894,8 +894,8 @@ button:focus {
 
 .section_all {
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .business_form_custom .form-control {
