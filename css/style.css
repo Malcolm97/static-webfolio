@@ -77,9 +77,9 @@ button:focus {
 
 .section {
     position: relative;
-    padding-top: 80px;
+    padding-top: 0;
     padding-bottom: 80px;
-    background-color: #222222;
+    background-color: #1c1c1c;
 }
 
 .back_top {
@@ -894,7 +894,7 @@ button:focus {
 
 .section_all {
     position: relative;
-    padding-top: 0;
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
