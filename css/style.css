@@ -77,9 +77,7 @@ button:focus {
 
 .section {
     position: relative;
-    padding-top: 0;
-    padding-bottom: 0px;
-    background-color: #101010;
+    
 }
 
 .back_top {
